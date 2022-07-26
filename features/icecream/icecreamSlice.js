@@ -21,7 +21,7 @@ const icecreamSlice = createSlice({
   //     state.numOfIcecreams--;
   //   }
   // }
-  //Recommended approach for extra reducer.
+  //Recommended approach for extra
   extraReducers: (builder) =>  {
     builder.addCase(cakeActions.ordered, (state) => {
       state.numOfIcecreams--
